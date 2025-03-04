@@ -1,0 +1,19 @@
+#logo {
+	width: 15%;
+}
+#title {
+	text-align: center;
+	background-color: #000000;
+	border-radius: 25px;
+	color: #ffffff;
+}
+#footer {
+	text-align: center;
+	color: #000000;
+}
+#navbar {
+	background-color: #000000;
+}
+#button {
+	background-color: #000000;
+}
