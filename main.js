@@ -22,12 +22,20 @@ function checkDiscount() {
     let discountedPrice = originalPrice - (originalPrice * discountMultiplier);
 
     displayElement.innerHTML = 'Your total ticket price is ₱' + discountedPrice.toFixed(2) + ".";
-}
-function changetoCapital() {
+    }
+    function changetoCapital() {
     var fName = document.getElementById("fullName");
     fName.value = fName.value.toUpperCase();
-}
-function submitFeedback() {
+    }
+    function submitFeedback() {
     var fullname = document.getElementById("fullName").value;
-    window.alert("Thank you, " + fullname + " for your feedback.");
-}
+    window.alert("Thank you " + fullname + " for your feedback!");
+    }
+
+    function mouseOver(navlink){
+    navlink.style.color = "white";
+    }
+
+    function mouseOut(navlink){
+    navlink.style.color = "antiquewhite";
+    }
