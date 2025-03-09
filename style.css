@@ -1,19 +1,96 @@
-#logo {
+body{
+	background-image:url(bg.png);
+	font-family:heiti sc;
+}
+
+hr{
+	 border-top: 1px solid white;
+}
+
+.map-img{
+	margin:20px;
+	border: 5px solid #7D8570;
+
+}
+
+.card{
+	 margin:20px;
+	 background-color:#AFBE8F;
+	 border-radius:25px;
+	 border: 5px solid #7D8570;
+	 color:#3E363F;
+
+}
+
+.logo {
 	width: 15%;
 }
+
 #title {
 	text-align: center;
-	background-color: #000000;
-	border-radius: 25px;
-	color: #ffffff;
+	background-color: #AFBE8F;
+	border-radius:25px;
+	border: 5px solid #7D8570;
+	color: #504B3A;
+	font-family:courier;
 }
 #footer {
 	text-align: center;
-	color: #000000;
+	color: #504B3A;
+	background-color:#7D8570;
+	bottom:0;
+	position:fixed;
+	width:100%;
+	height:4%;
+	border-top:5px solid #646F58;
 }
-#navbar {
-	background-color: #000000;
+.navbar {
+	background-color: #7D8570;
+	border: 5px solid #646F58;
 }
-#button {
+.button {
 	background-color: #000000;
+	margin:;
+}
+
+.nav-link{
+	color: antiquewhite;
+}
+
+ .price-display{
+ 	margin-bottom:200px;
+ }
+
+.btn-group button{
+  	border: 1px solid gray;
+	color: white;
+	cursor: pointer; 
+  	float: left;
+	margin:1px;
+}
+
+.table{
+	border:10px solid #7D8570;
+	background-color:#AFBE8F;
+}
+
+th{
+	font-family: courier;
+	color: #504B3A;
+}
+
+td{
+	 color:#3E363F;
+}
+
+.feedback{
+	border:10px solid #7D8570;
+	border-radius:25px;
+	background-color:#AFBE8F;
+	padding:20px;
+}
+
+label{
+	font-family: courier;
+	 color:#3E363F;
 }
