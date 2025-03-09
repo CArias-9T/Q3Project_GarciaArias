@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -20,19 +21,19 @@
 		            <span class="navbar-toggler-icon"></span>
 		        </button>
 		        <div class="collapse navbar-collapse justify-content-between" id="mynavbar">
-		            <ul class="navbar-nav me-auto">
-		                <li class="nav-item">
-		                    <a class="nav-link" href="index.html">Home</a>
-		                </li>
-		                <li class="nav-item">
-		                    <a class="nav-link" href="schedule.html">Train Schedule</a>
-		                </li>
-		                <li class="nav-item">
-		                    <a class="nav-link" href="contact.html">Help</a>
-		                </li>
-		            </ul>
-		            <form class="d-flex">
-		                <input class="form-control me-2" type="text" placeholder="Search">
+		            <ul class="nav-pills nav">
+      					<li class="nav-item">
+       	 				<a class="nav-link navlink" href="index.html" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" >Home</a>
+     	 				</li>
+     					 <li class="nav-item">
+       	 				<a class="nav-link navlink" href="schedule.html" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">Train Schedule</a>
+     					 </li>
+      					<li class="nav-item">
+        				<a class="nav-link navlink" href="contact.html" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">Help</a>
+      					</li>
+    					</ul>
+		            <form class="d-flex nav-form">
+		                <input class="form-control me-2" type="text" placeholder="Search...">
 		                <button class="btn btn-outline-light" type="button">Search</button>
 		            </form>
 		        </div>
@@ -45,7 +46,7 @@
 	</div>
 	<hr>
 	<div class="container">
-		<table class="table table-striped table-bordered">
+		<table class="table table-striped table-bordered table-hover">
 		    <thead>
 		      <tr>
 		        <th>Day</th>
@@ -92,7 +93,10 @@
 		    </tbody>
 		</table>
 	</div>
-	<div class="container-fluid fixed-bottom" id="footer">
+
+	<hr>
+
+	<div class="container-fluid" id="footer">
 		<p>Arias, Caleb and Garcia, Calvin | 9-Topaz</p>
 	</div>
 </body>
