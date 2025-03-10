@@ -1,96 +1,124 @@
-body{
-	background-image:url(bg.png);
-	font-family:heiti sc;
+/* General Styles */
+body {
+    background-image: url(bg.png);
+    background-color:#AFBE8F;
+    font-family: Heiti SC;
 }
 
-hr{
-	 border-top: 1px solid white;
+hr {
+    border-top: 1px solid white;
 }
 
-.map-img{
-	margin:20px;
-	border: 5px solid #7D8570;
-
+/* Card & Map Styles */
+.map-img {
+    margin: 20px;
+    border: 5px solid #7D8570;
 }
 
-.card{
-	 margin:20px;
-	 background-color:#AFBE8F;
-	 border-radius:25px;
-	 border: 5px solid #7D8570;
-	 color:#3E363F;
-
+.card {
+    margin: 20px;
+    background-color: #AFBE8F;
+    border-radius: 25px;
+    border: 5px solid #7D8570;
+    color: #3E363F;
 }
 
-.logo {
-	width: 15%;
-}
-
+/* Title & Header Styles */
 #title {
-	text-align: center;
-	background-color: #AFBE8F;
-	border-radius:25px;
-	border: 5px solid #7D8570;
-	color: #504B3A;
-	font-family:courier;
+    text-align: center;
+    background-color: #AFBE8F;
+    border-radius: 25px;
+    border: 5px solid #7D8570;
+    color: #504B3A;
+    font-family: courier;
 }
+
+#history {
+    color: #ffffff;
+    font-family: courier;
+}
+
+h1 {
+    font-family: courier;
+    color: #FFFCE8;
+}
+
+/* Footer Styles */
 #footer {
-	text-align: center;
-	color: #504B3A;
-	background-color:#7D8570;
-	bottom:0;
-	position:fixed;
-	width:100%;
-	height:4%;
-	border-top:5px solid #646F58;
+    text-align: center;
+    color: #504B3A;
+    background-color: #7D8570;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 4%;
+    border-top: 5px solid #646F58;
 }
+
+/* Navbar Styles */
 .navbar {
-	background-color: #7D8570;
-	border: 5px solid #646F58;
-}
-.button {
-	background-color: #000000;
-	margin:;
+    background-color: #7D8570;
+    border: 5px solid #646F58;
 }
 
-.nav-link{
-	color: antiquewhite;
+.nav-link {
+    color: antiquewhite;
 }
 
- .price-display{
- 	margin-bottom:200px;
- }
-
-.btn-group button{
-  	border: 1px solid gray;
-	color: white;
-	cursor: pointer; 
-  	float: left;
-	margin:1px;
+/* Button & Link Styles */
+#trainfareButton {
+    background-color: #000000;
+    border-radius: 16px;
 }
 
-.table{
-	border:10px solid #7D8570;
-	background-color:#AFBE8F;
+#buttonGroup {
+	text-align: center;
 }
 
-th{
-	font-family: courier;
-	color: #504B3A;
+#carouselButton {
+    border-radius: 16px;
 }
 
-td{
-	 color:#3E363F;
+/* Table Styles */
+.table {
+    border: 10px solid #7D8570;
+    background-color: #AFBE8F;
 }
 
-.feedback{
-	border:10px solid #7D8570;
-	border-radius:25px;
-	background-color:#AFBE8F;
-	padding:20px;
+th {
+    font-family: courier;
+    color: #504B3A;
 }
 
-label{
-	font-family: courier;
-	 color:#3E363F;
+td {
+    color: #3E363F;
+}
+
+/* Feedback Form Styles */
+.feedback {
+    border: 10px solid #7D8570;
+    border-radius: 25px;
+    background-color: #AFBE8F;
+    padding: 20px;
+}
+
+label {
+    font-family: courier;
+    color: #3E363F;
+}
+
+/* Image & Carousel Styles */
+.carousel-img {
+    width: 600px;
+    height: 375px;
+    border: 5px solid gray;
+    margin: auto;
+}
+
+/* Container Styles */
+.container-home {
+    background-color: rgba(0, 0, 0, .6);
+    padding: 50px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
