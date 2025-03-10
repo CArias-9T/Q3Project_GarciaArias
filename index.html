@@ -10,7 +10,7 @@
 
 		<script src="main.js"></script>
 
-		
+
 	</head>
 <body>
 	<div id="nav">
@@ -24,8 +24,11 @@
 		        </button>
 		        <div class="collapse navbar-collapse justify-content-between" id="mynavbar">
 		            <ul class="nav-pills nav">
-      					<li class="nav-item">
+		            	<li class="nav-item">
        	 				<a class="nav-link navlink" href="index.html" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" >Home</a>
+     	 				</li>
+      					<li class="nav-item">
+       	 				<a class="nav-link navlink" href="trainfare.html" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" >Train Fare</a>
      	 				</li>
      					 <li class="nav-item">
        	 				<a class="nav-link navlink" href="schedule.html" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">Train Schedule</a>
@@ -43,99 +46,30 @@
 		</nav>
 	</div>
 	<div class="container mt-3 mb-3 p-3" id="title">
-		<h3>Train Fare Guide</h3>
-		<p>MRT Line 3 Ticketing Center: North Avenue to Taft Avenue. (Shown in the blue-colored line)</p>
+		<h3>MRT-3 Ticketing Station</h3>
+		<p>Welcome to the MRT Fare Guide!</p>
 	</div>
 
 	<hr>
 
-	<div class="mt-3 mb-3 p-3">
-		<div class="row">
-				<!-- train map -->
-			<div class="col-sm-6" id="train-map">
-				<img src="train-map.png" class="rounded map-img img-fluid" width="100%">
-
-				<div class="card">
-					<div class="card-header">
-						<h4>Price:</h4>
-					</div>
-					<div class="card-body">
-					<p id="price">...</p>
-					</div>
-				</div>
-
-			</div>
-
-				<!-- ticket area -->
-			<div class="col-sm-6">
-				<div class="card">
-					<div class="card-header">
-						<h3>Choose:</h3>
-					</div>
-					<div class="card-body">	
-						<h4>Leaving from:</h4>
-					<form>
-						<label for="initial-station">Choose your station:</label>
-						<select class="form-control" name="initial-station" id="initialStation">
-							<option disabled selected value="select">Select</option>
-							<option value="#">North Avenue</option>
-							<option value="#">Quezon Avenue</option>
-							<option value="#">Kamuning</option>
-							<option value="#">Araneta Center-Cubao</option>
-							<option value="#">Santolan-Annapolis</option>
-							<option value="#">Ortigas</option>
-							<option value="#">Shaw Boulevard</option>
-							<option value="#">Boni</option>
-							<option value="#">Guadalupe</option>
-							<option value="#">Buendia</option>
-							<option value="#">Ayala</option>
-							<option value="#">Magallanes</option>
-							<option value="#">Taft Avenue</option>
-						</select>
-					</form>
-					<br>
-					<h4>Going to:</h4>	
-					<form>
-						<label for="final-station">Choose your station:</label>
-						<select class="form-control" name="final-station" id="finalStation">
-							<option disabled selected value="select">Select</option>
-							<option value="#">North Avenue</option>
-							<option value="#">Quezon Avenue</option>
-							<option value="#">Kamuning</option>
-							<option value="#">Araneta Center-Cubao</option>
-							<option value="#">Santolan-Annapolis</option>
-							<option value="#">Ortigas</option>
-							<option value="#">Shaw Boulevard</option>
-							<option value="#">Boni</option>
-							<option value="#">Guadalupe</option>
-							<option value="#">Buendia</option>
-							<option value="#">Ayala</option>
-							<option value="#">Magallanes</option>
-							<option value="#">Taft Avenue</option>
-						</select>
-					</form>
-					<br>
-					<h4>Type of Ticket:</h4>	
-					<form>
-						<label for="ticket-type">Choose your ticket type:</label>
-						<select class="form-control" name="ticket-type" id="ticketType">
-							<option disabled selected value="select">Select</option>
-							<option value="discounted">Student, PWD, and Seniors</option>
-							<option value="regular">Regular</option>
-						</select>
-					</form>
-					<br>
-				</div>
-
-						<div class="btn-group">
-							<button type="button" class="btn btn-dark mx-auto d-block" onclick="checkDiscount()" id="button">Price</button>
-						
-						
-							<button type="button" class="btn btn-dark  mx-auto d-block" onclick="window.location.reload()" id="button">Refresh</button>
-						</div>	
-				</div>
-			</div>
+	<div class="container-fluid container-home">
+	<div class="row">
+		<div class="col-sm-6">
+			<img src="station.jpg" alt="station1" class="mx-auto d-block carousel-img">
 		</div>
+		<div class="col-sm-6" id="history">
+			<h1>Welcome to the Ticketing Station!</h1>
+
+			<h3>History of the Station</h3>
+			<p>The first line, the MRT Line 3, began construction in October 1996 after the Metro Rail Transit Corporation, a consortium of local companies, was awarded a build-lease-transfer contract. In 1997, MRTC entered into a turnkey contract with Sumitomo Corporation and Mitsubishi Heavy Industries for the line's construction.</p>
+
+			<hr>
+
+			<h3>Our Purpose</h3>
+			<p>Here is where you can buy tickets for your future train rides, and check the schedules, for MRT-3. You may check the ticketing section to get your ticket, and go to the schedules to see when the trains arrive.</p>
+		</div>
+
+	</div>
 	</div>
 
 	<hr>
